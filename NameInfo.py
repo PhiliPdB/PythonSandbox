@@ -1,4 +1,3 @@
-import re
 # When you input your name, you get some information about it
 
 name = input("What is your name? ")
