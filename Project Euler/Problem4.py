@@ -1,7 +1,4 @@
 
-# NOTES:
-# All three digit numbers are in range(100, 1000)
-
 # Checks if the number is a palindrome
 def is_palindrome(number):
 	return str(number) == str(number)[::-1]
@@ -17,6 +14,5 @@ def find_palindromes(number_of_digits):
 				palindromes.append(i * j)
 
 	return palindromes
-
 
 print(max(find_palindromes(3)))
