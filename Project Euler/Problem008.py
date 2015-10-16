@@ -16,7 +16,7 @@ def product(list):
 
 def find_products():
 	for i in range(len(number_list) - 12):
-		product_list.append(product([int(n) for n in number_list[i:i+13]]))
+		product_list.append(product(number_list[i:i+13]))
 
 find_products()
 print(max(product_list))
