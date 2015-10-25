@@ -1,7 +1,7 @@
 def cycle_length(n):
 	"""
 	Computes the length of the recurring cycle in the decimal representation
-	of the rational number 1/d if any, 0 otherwise
+	of the rational number 1/n if any, 0 otherwise
 	"""
 
 	remainder_list = []
