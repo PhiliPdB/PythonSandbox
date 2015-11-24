@@ -1,0 +1,4 @@
+*.pdf
+.sublime-project
+.sublime-project.sublime-workspace
+.idea
