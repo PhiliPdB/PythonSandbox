@@ -1,5 +1,3 @@
-import string
-
 words = open('Problem042Data.txt').read().replace('"', '').split(',')
 triangle_words = 0
 
