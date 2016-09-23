@@ -16,8 +16,6 @@ def prime_factors(n):
 
 sequence = []
 for i in range(int(1e3), int(1e6)):
-	print(i)
-
 	if len(set(prime_factors(i))) is 4 and (not sequence or sequence[-1] == i - 1):
 		sequence.append(i)
 	else:
