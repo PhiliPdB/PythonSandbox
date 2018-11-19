@@ -1,5 +1,3 @@
-from math import gcd
-
 result = 0
 limit = int(1e6)
 
